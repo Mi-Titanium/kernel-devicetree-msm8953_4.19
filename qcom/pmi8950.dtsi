@@ -193,7 +193,7 @@
 		};
 
 		qpnp_smbcharger: qcom,qpnp-smbcharger {
-			compatible = "qcom,qpnp-smbcharger";
+			compatible = "qcom,qpnp-smbcharger-mi8953";
 			#address-cells = <1>;
 			#size-cells = <1>;
 
@@ -309,7 +309,7 @@
 		};
 
 		qpnp_fg: qcom,fg {
-			compatible = "qcom,qpnp-fg";
+			compatible = "qcom,qpnp-fg-mi8953";
 			#address-cells = <1>;
 			#size-cells = <1>;
 			qcom,resume-soc = <95>;
